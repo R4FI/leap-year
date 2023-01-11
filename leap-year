@@ -1,0 +1,23 @@
+
+return 
+return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
+console.log(leapyear(2015));
+console.log(leapyear(100));
+
+// test case
+console.log(leapyear(2015));
+console.log(leapyear(2020));
+// test case answer
+// false
+// true(year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+}
+console.log(leapyear(2015));
+console.log(leapyear(100));
+
+// test case
+console.log(leapyear(2015));
+console.log(leapyear(2020));
+// test case answer
+// false
+// true
